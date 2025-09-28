@@ -1,0 +1,85 @@
+.section_3 {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+    position: relative;
+    
+}
+  
+  .heading-2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .para-main {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #e1e1e1;
+  }
+  
+  /* Custom Button Styles */
+  .btn-main {
+    margin-top: 20px;
+  }
+  
+  .btn-pls {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #131313;
+    background: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .btn-pls:hover {
+    background: #e1e1e1;
+  }
+  
+  .btn-pls .glow,
+  .btn-pls .btn {
+    display: none; /* unless you want to animate glow etc. */
+  }
+  
+  /* Counter styles */
+  .counter-number span {
+    font-size: 2rem;
+    font-weight: 700;
+    display: block;
+    color: #f3f2f2;
+  }
+  
+
+  .counter_main {
+    margin-top: 20px;
+  }
+  
+  .counter-box {
+    background-color: #ffffff; /* or dark if using dark section */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 30px 20px;
+    transition: all 0.3s ease;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .counter-box:hover {
+    background-color: #f7f7f7;
+    transform: translateY(-5px);
+  }
+  
+  .counter-box .counter-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+  }
+  
+  .counter-box p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  

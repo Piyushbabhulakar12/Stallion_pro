@@ -1,0 +1,61 @@
+.banner.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .text-box {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .heading-2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  
+  .para-main.hero-p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Button */
+  .btn-main .btn-cls {
+    position: relative;
+    display: inline-block;
+    padding: 12px 30px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 2;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-main .btn-cls:hover {
+    background: white;
+    color: black;
+  }
+  
+  .btn-cls .glow,
+  .btn-cls .btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  
+  
